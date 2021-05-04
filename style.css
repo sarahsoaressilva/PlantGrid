@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb( 243, 243, 243); /* Cinza "gelo" */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex; /* Flex-Container*/
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+
+}
+
+.instagram-plant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-plant img {
+    height: 40rem;
+}
+
+.instagram-continue {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;  /*fica vertical com flex-direction */
+    flex-direction: column; /*criamos uma coluna */
+    width: 50%;
+    min-height: 34rem;
+}
+
+
+.foto {
+    width: 225px;
+    height: 200px;
+}
+
+.profile-photo { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden; /*não deixar a imagem para fora da div*/
+    width: 200px;
+    height: 200px;
+}
+
+/*Primeiro conteiner do lado esquerdo*/
+.group {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid rgb(91, 151, 0);
+}
+
+.group:nth-child(1) { /*pega os filhos dos elementos*/
+    min-height: 19rem;
+    margin-bottom: 50px;
+}
+
+.plantgrid-logo {
+    height: 100px;
+    padding: 0;
+}
+
+.get-the-app {
+    margin-top: 20px;
+}
+
+.instagram-login {
+    background-color: green;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.instagram-logout {
+    color: green; 
+    margin-top: 1rem;    
+}
+
+.not-account {
+    color: rgb( 160, 160, 160);
+    padding: 5px;
+}
+
+.link-blue {
+    color: green;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly; /*deixa os mesmos espaços entre o meio e os lados */
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('./img/1024px-Download_on_the_App_Store_Badge.svg.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('./img/google-play-badge.png');
+}
+
+
+/*  Trabalhando com Responsividade */
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .instagram-wrapper{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-plant {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+
+    .group {
+        border: 1px solid transparent;
+    }
+}
