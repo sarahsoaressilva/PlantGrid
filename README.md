@@ -15,18 +15,20 @@ Tive a ideia de recriar uma rede parecida com o Instagram, mas com foco em posta
 ---
 ### Imagens
 
+- Clique nas imagens para ver com melhor resolução e mais detalhadamente.
+
 **Mockup de Celular feito no Adobe Ilustrator CC**
 
-<img src="https://github.com/sarahsoaressilva/PlantGrid/blob/master/img/foto_celular.png" height="500px">
+<img src="https://github.com/sarahsoaressilva/PlantGrid/blob/master/img/foto_celular.png">
 
 **Imagem da página web**
 
-<img src="https://github.com/sarahsoaressilva/PlantGrid/blob/master/img/exibi%C3%A7%C3%A3o.PNG" height="500px">
+<img src="https://github.com/sarahsoaressilva/PlantGrid/blob/master/img/exibi%C3%A7%C3%A3o.PNG">
 
 
 **Imagem da página para celular**
 
-<img src="https://github.com/sarahsoaressilva/PlantGrid/blob/master/img/exibi%C3%A7%C3%A3o_responsiva.PNG" height="500px">
+<img src="https://github.com/sarahsoaressilva/PlantGrid/blob/master/img/exibi%C3%A7%C3%A3o_responsiva.PNG">
 
 
 
