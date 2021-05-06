@@ -4,6 +4,7 @@
 
 Esse mini projeto foi desenvolvido de acordo com a aula presente no **Bootcamp HTML Developer** na plataforma da **Digital Innovation One**. 
 
+Data do Desenvolvimento: 04/05/2021
 ---
 
 ### Objetivo do Projeto 
